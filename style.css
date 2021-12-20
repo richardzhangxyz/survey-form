@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Raleway:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+header {
+  font-family: "Roboto Slab";
+  font-size: 125%;
+  width: 600px;
+  margin: auto;
+}
+
+body {
+  font-family: "Raleway";
+  line-height: 1.5;
+  height: 150vh;
+  background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+  background-size: cover;
+  color: white;
+  width: 600px;
+  margin: auto;
+}
+
+form {
+  background: black;
+  color: white;
+  padding: 2.0rem; 
+}
+
+.submit-button {
+  cursor: pointer;
+  font-family: "Noto Sans";
+  width: 100%;
+  padding = 1.5rem;
+  background: #FF851B;
+  color: white;
+  font-size: 150%;
+  border-radius: 2px;
+}
+
+.sheet-appearance {
+  display: block;
+  width: 85%;
+  height: 2.5rem;
+}
